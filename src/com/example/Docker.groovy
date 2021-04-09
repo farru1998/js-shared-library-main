@@ -4,8 +4,6 @@ package com.example
 class Docker implements Serializable {
 
     def script
-
-    def upStreamBuild = Jenkins.getInstance().getItemByFullName(item.fullName).getBuildByNumber(last_job_num)
     
     Docker(script) {
         this.script = script
