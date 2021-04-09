@@ -1,5 +1,4 @@
 #!/usr/bin/env groovy
-import jenkins.model.Jenkins
 package com.example
 
 class Docker implements Serializable {
